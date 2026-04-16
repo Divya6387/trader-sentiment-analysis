@@ -2,25 +2,6 @@
 ### Primetrade.ai — Data Science / Analytics Intern Assignment
 
 > **Analyze how Bitcoin market sentiment (Fear/Greed Index) relates to trader behavior and performance on Hyperliquid, and uncover patterns that could inform smarter trading strategies.**
-## Repository Structure
-primetrade-analysis/
-│
-├── primetrade_analysis.ipynb    ← Main Jupyter Notebook (all parts + outputs embedded)
-├── primetrade_analysis.py       ← Equivalent standalone Python script
-│
-├── charts/                      ← Auto-generated output charts (7 charts)
-│   ├── 01_performance_fear_greed.png
-│   ├── 02_behavior_fear_greed.png
-│   ├── 03_segments_heatmap.png
-│   ├── 04_pnl_distribution.png
-│   ├── 05_leverage_distribution.png
-│   ├── 06_rolling_pnl_vs_sentiment.png
-│   └── 07_feature_importance.png
-│
-├── requirements.txt             ← Python dependencies
-├── .gitignore                   ← Excludes data CSVs and cache files
-└── README.md                    ← This file
-
 > Data files (`historical_data.csv`, `fear_greed_index.csv`) are not committed. Place them in the root folder before running.
 ## Setup and How to Run
 ### Prerequisites
