@@ -1,0 +1,29 @@
+# Data files
+historical_data.csv
+fear_greed_index.csv
+ 
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+ 
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ 
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+ 
+# OS files
+.DS_Store
+Thumbs.db
+ 
+# IDE
+.vscode/
+.idea/
+*.swp
